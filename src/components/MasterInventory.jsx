@@ -2,7 +2,7 @@ import { useMemo, useRef, useState } from 'react'
 import * as XLSX from 'xlsx'
 import { uid, norm } from '../utils'
 import AddProductModal from './AddProductModal'
-import '../CssComponents/MasterCatalog.css'
+import '../CssComponents/Mastercatalog.css'
 
 const COLS = [
   { key: 'sku', label: 'Master SKU' },
